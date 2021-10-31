@@ -1,2 +1,11 @@
 # safecracker.js
-JS Implementation of Daydreams 1997's Safecracker Game
+## Browser Implementation of Daydream's **SAFECRACKER** from '97
+
+## Features:
+
+- Reconstruction of Room 02 Switch-Safe
+- Original Soundtrack
+- Original Sound-Effects
+
+
+![image info](./src/img/preview.png)
