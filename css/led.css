@@ -1,0 +1,49 @@
+.led {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    font-size: 10vw;
+    color: #FF0000;
+    text-shadow: 2px 2px 20px #FF0000;
+    filter: drop-shadow(5px 5px 5px #222222);
+}
+
+#led-1 {
+    left: 34.6vw;
+    margin-top: -14%;
+}
+
+#led-2 {
+    left: 39.6vw;
+    margin-top: -14%;
+}
+
+#led-3 {
+    left: 44.6vw;
+    margin-top: -14%;
+}
+
+#led-4 {
+    left: 49.6vw;
+    margin-top: -14%;
+}
+
+#led-5 {
+    left: 34.6vw;
+    margin-top: 2.5%;
+}
+
+#led-6 {
+    left: 39.6vw;
+    margin-top: 2.5%;
+}
+
+#led-7 {
+    left: 44.6vw;
+    margin-top: 2.5%;
+}
+
+#led-8 {
+    left: 49.6vw;
+    margin-top: 2.5%;
+}

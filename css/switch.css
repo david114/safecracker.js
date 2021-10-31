@@ -1,0 +1,49 @@
+.switch {
+    position: absolute;
+    top: 50%;
+    width: 2.5vw;
+    z-index: 3;
+    cursor: pointer;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222222); */
+    filter: drop-shadow(5px 5px 5px #222222);
+}
+
+#switch-1 {
+    left: 35vw;
+    margin-top: -7%;
+}
+
+#switch-2 {
+    left: 40vw;
+    margin-top: -7%;
+}
+
+#switch-3 {
+    left: 45vw;
+    margin-top: -7%;
+}
+
+#switch-4 {
+    left: 50vw;
+    margin-top: -7%;
+}
+
+#switch-5 {
+    left: 35vw;
+    margin-top: 2.5%;
+}
+
+#switch-6 {
+    left: 40vw;
+    margin-top: 2.5%;
+}
+
+#switch-7 {
+    left: 45vw;
+    margin-top: 2.5%;
+}
+
+#switch-8 {
+    left: 50vw;
+    margin-top: 2.5%;
+}

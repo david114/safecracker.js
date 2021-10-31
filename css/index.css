@@ -1,0 +1,62 @@
+@import './switch.css';
+@import './led.css';
+@import './handle.css';
+
+
+body {
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+#main-wrapper {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#safe {
+    width: 55%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+
+#sound-button {
+    position: absolute;
+    cursor: pointer;
+    width: 1.5vw;
+    float: right;
+    left: 98vw;
+    filter: invert(1);
+}
+
+#safecracker-label {
+    position: absolute;
+    z-index: 2;
+    font-size: 1.5vw;
+    font-family: fantasy;
+    font-weight: 600;
+    color: #192242;
+    -webkit-text-stroke: 1px #3d3d48;
+    top: 50%;
+    left: 38vw;
+    transform: translateY(-50%);
+
+}
+
+#win-notice {
+    display: none;
+    position: absolute;
+    font-size: 8vh;
+    font-family: fantasy;
+    font-weight: 600;
+    color: hsl(219deg 81% 19%);
+    -webkit-text-stroke: 2px hsl(14deg 43% 75%);
+    left: 50%;
+    transform: translateX(-50%);
+}
