@@ -32,7 +32,12 @@ body {
     width: 1.5vw;
     float: right;
     left: 98vw;
+    opacity: 0.25;
     filter: invert(1);
+}
+
+#sound-button:hover {
+    opacity: 1;
 }
 
 #safecracker-label {
